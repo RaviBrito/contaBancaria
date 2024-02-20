@@ -60,7 +60,7 @@ public class Conta {
                 tipoConta = "Conta Corrente";
                 break;
             case 2:
-                tipoConta= "conta Poupança";
+                tipoConta= "Conta Poupança";
                 break;
         }
         System.out.println("*****************");

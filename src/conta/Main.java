@@ -1,6 +1,8 @@
 package conta;
 
 import conta.model.Conta;
+import conta.model.ContaCorrente;
+import conta.model.ContaPoupanca;
 
 import java.util.Scanner;
 
@@ -48,6 +50,16 @@ public class Main {
                 System.out.println("Programa Finalizado");
                 break;
         }
+
+        ContaPoupanca cp1 = new ContaPoupanca(012, 456, 2,"Kauan Rodrigues",5000f);
+
+        System.out.println(cp1.visualizar());
+        System.out.println("Sua renda mensal é: " + cp1.rendaJuros()+"\n");
+
+        ContaCorrente cc1 = new ContaCorrente (013, 456, 1,"Afonso Manoel ",10000f);
+        System.out.println("\n\n" + cp1.visualizar());
+        System.out.println("Seu limite é : " + cc1.getLimite());
+
     }
 
 }

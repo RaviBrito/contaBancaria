@@ -1,39 +1,33 @@
 package conta.model;
-public class Conta {
-    public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
-        this.numero = numero;
+public abstract class  Conta {
+
+    private int numConta;
+    private int agencia;
+    private int tipo;
+    private String titular;
+    private float saldo;
+
+    //Construtor
+    public Conta(int numConta, int agencia, int tipo, String titular, float saldo) { //pede atributos
+        this.numConta = numConta;
         this.agencia = agencia;
         this.tipo = tipo;
         this.titular = titular;
         this.saldo = saldo;
     }
 
-    private int numero;
-    private int agencia;
-    private int tipo;
-    private String titular;
-    private float saldo;
 
-    public String getTitular() {
-        return titular;
+    //getters and setters
+    public int getNumConta() {
+        return numConta;
     }
-
-    public void setTitular(String nome) {
-        this.titular = nome;
-    }
-
-    public int getNumero() {
-        return numero;
-    }
-
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setNumConta(int numConta) {
+        this.numConta = numConta;
     }
 
     public int getAgencia() {
         return agencia;
     }
-
     public void setAgencia(int agencia) {
         this.agencia = agencia;
     }
@@ -41,19 +35,26 @@ public class Conta {
     public int getTipo() {
         return tipo;
     }
-
     public void setTipo(int tipo) {
         this.tipo = tipo;
     }
 
+    public String getTitular() {
+        return titular;
+    }
+    public void setTitular(String nome) {
+        this.titular = nome;
+    }
+
+
     public float getSaldo() {
         return saldo;
     }
-
     public void setSaldo(float saldo) {
         this.saldo = saldo;
     }
-    public boolean visualizar(){
+
+    public void visualizar(){
         String tipoConta="";
         switch (this.tipo){
             case 1:
@@ -66,14 +67,14 @@ public class Conta {
         System.out.println("*****************");
         System.out.println("Dados da Conta: ");
         System.out.println("*****************");
-        System.out.println("Numero da conta: " + this.numero);
+        System.out.println("Numero da conta: " + this.numConta);
         System.out.println("Agencia da conta: " + this.agencia);
         System.out.println("Tipo da conta: " + tipoConta);
         System.out.println("Titular: " + this.titular);
         System.out.println("Saldo: " + this.saldo);
 
-        return false;
     }
+    //Métodos || ações
     public void depositar (float valor){
         this.setSaldo(this.saldo + valor);
     }

@@ -1,12 +1,14 @@
 package conta.model;
 
-public class ContaCorrente extends Conta{
+public class ContaCorrente extends Conta  {
 
 	private float limite;
+	private float salario;
 
-	public ContaCorrente(int numConta, int agencia, int tipo, String titular, float saldo, float limite) {
+	public ContaCorrente(int numConta, int agencia, int tipo, String titular, float saldo, float limite, float salario) {
 		super(numConta, agencia, tipo, titular, saldo);
 		this.limite = limite;
+		this.salario=salario;
 	}
 
 	public float getLimite() {
@@ -15,6 +17,14 @@ public class ContaCorrente extends Conta{
 
 	public void setLimite(float limite) {
 		this.limite = limite;
+	}
+
+	public float getSalario() {
+		return salario;
+	}
+
+	public void setSalario(float salario) {
+		this.salario = salario;
 	}
 
 	@Override
@@ -41,5 +51,5 @@ public class ContaCorrente extends Conta{
 		System.out.println("Limite de Crédito: " + this.limite);
 
 	}
-    
+
 }

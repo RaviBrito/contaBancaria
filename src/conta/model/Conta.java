@@ -54,6 +54,8 @@ public abstract class  Conta {
         this.saldo = saldo;
     }
 
+    //metodos
+
     public void visualizar(){
         String tipoConta="";
         switch (this.tipo){
@@ -89,4 +91,3 @@ public abstract class  Conta {
     }
 
 }
-

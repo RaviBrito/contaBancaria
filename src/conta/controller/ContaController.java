@@ -10,8 +10,6 @@ public class ContaController implements ContaRepository {
 
     private ArrayList <Conta>  listaContas = new ArrayList<>();
     int numero=0;
-    int numeroInput;
-    int numConta;
 
 
 

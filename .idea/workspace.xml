@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7753cbc0-7f50-494d-964a-b12fc61fee6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/conta/controller/ContaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conta/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conta/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/model/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conta/model/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/model/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conta/repository/ContaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/repository/ContaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/conta/controller/ContaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/controller/ContaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "task4",
+    "git-widget-placeholder": "task5e6",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ravib/Repositorio Local/performance-goals-java",
     "node.js.detected.package.eslint": "true",
@@ -85,7 +81,7 @@
       <workItem from="1709037014033" duration="8315000" />
       <workItem from="1709045782690" duration="10000" />
       <workItem from="1709060487965" duration="798000" />
-      <workItem from="1709137041407" duration="7194000" />
+      <workItem from="1709137041407" duration="8093000" />
     </task>
     <servers />
   </component>
@@ -97,7 +93,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/conta/controller/ContaController.java</url>
-          <line>37</line>
+          <line>35</line>
           <properties class="conta.controller.ContaController" method="atualizar">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
